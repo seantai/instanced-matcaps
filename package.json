@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build2": "vite build --base=//",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^9.17.3",
-    "@react-three/fiber": "^8.2.2",
+    "@react-three/drei": "^9.22.7",
+    "@react-three/fiber": "^8.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.143.0"
