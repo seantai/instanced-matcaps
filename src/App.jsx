@@ -14,6 +14,7 @@ const Scene = () => {
       <RoundedBox>
         <MeshWobbleMaterial wireframe color={"#ddfcd8"} />
       </RoundedBox>
+      <Foo />
       <ambientLight />
       <OrbitControls />
     </>
