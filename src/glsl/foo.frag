@@ -1,4 +1,4 @@
-varying vec2 vUv;
+varying vec2 v_uv;
 uniform sampler2D u_texture;
 uniform float u_time;
 

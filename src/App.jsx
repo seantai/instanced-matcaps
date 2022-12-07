@@ -1,19 +1,12 @@
 import "./css/App.css";
 import { useEffect, useState, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
-import {
-  OrbitControls,
-  RoundedBox,
-  MeshWobbleMaterial,
-} from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { Foo } from "./components/Foo";
 
 const Scene = () => {
   return (
     <>
-      <RoundedBox>
-        <MeshWobbleMaterial wireframe color={"#ddfcd8"} />
-      </RoundedBox>
       <Foo />
       <ambientLight />
       <OrbitControls />
