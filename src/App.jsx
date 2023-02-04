@@ -9,7 +9,7 @@ const Scene = () => {
     <>
       <Foo />
       <ambientLight />
-      <OrbitControls />
+      <OrbitControls makeDefault />
     </>
   );
 };

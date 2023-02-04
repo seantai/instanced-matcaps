@@ -6,15 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build2": "vite build --base=//",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^9.56.6",
-    "@react-three/fiber": "^8.10.1",
+    "@react-three/drei": "^9.56.12",
+    "@react-three/fiber": "^8.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.143.0"
+    "three": "^0.149.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
