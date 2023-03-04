@@ -1,10 +1,17 @@
-uniform float u_time;
 varying vec2 v_uv;
+uniform float u_time;
+
+// #include snoise.glsl
 
 void main() {
   v_uv = uv;
 
-  vec4 newPosition = vec4(position.x, position.y, position.z, 1.0);
+  // float noise = snoise(vec3(position.xyz));
 
-  gl_Position = projectionMatrix * modelViewMatrix * newPosition;
+  vec4 modelPosition = modelMatrix * vec4(position, 1.0);
+  modelPosition.y += sin(modelPosition.y * 6.0 + u_time * 2.0) * 0.1;
+
+  vec4 viewPosition = viewMatrix * modelPosition;
+
+  gl_Position = projectionMatrix * viewPosition;
 }

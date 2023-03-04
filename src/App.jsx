@@ -1,5 +1,5 @@
 import "./css/App.css";
-import { useEffect, useState, useRef } from "react";
+import { useRef, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Foo } from "./components/Foo";

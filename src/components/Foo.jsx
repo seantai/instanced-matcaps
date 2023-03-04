@@ -22,19 +22,19 @@ export const Foo = () => {
 
   useFrame(({ clock }) => {
     if (geometryRef.current) {
-      geometryRef.current.material.uniforms.u_time.value =
-        clock.getElapsedTime();
+      geometryRef.current.material.uniforms.u_time.value = clock.elapsedTime;
     }
   });
 
   return (
     <>
       <mesh ref={geometryRef} scale={0.6}>
-        <torusKnotGeometry />
+        <planeGeometry />
         <shaderMaterial
           vertexShader={fooVert}
           fragmentShader={fooFrag}
           uniforms={uniforms}
+          wireframe
         />
       </mesh>
     </>
