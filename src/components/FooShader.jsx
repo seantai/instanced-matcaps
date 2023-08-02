@@ -4,7 +4,7 @@ import { useTexture } from "@react-three/drei";
 import fooVert from "../glsl/foo.vert";
 import fooFrag from "../glsl/foo.frag";
 
-export const Foo = () => {
+export const FooShader = () => {
   const geometryRef = useRef();
   const fooTexture = useTexture("./img/favicon.ico");
 

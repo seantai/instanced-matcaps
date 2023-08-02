@@ -1,15 +1,16 @@
 import "./App.css";
 import { useRef, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import { Foo } from "./components/Foo";
+import { CameraControls } from "@react-three/drei";
+import { FooShader } from "./components/FooShader";
 
 const Scene = () => {
+  const camRef = useRef();
   return (
     <>
-      <Foo />
+      <FooShader />
       <ambientLight />
-      <OrbitControls makeDefault />
+      <CameraControls ref={camRef} makeDefault />
     </>
   );
 };
