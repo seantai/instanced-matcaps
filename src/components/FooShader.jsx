@@ -1,5 +1,5 @@
-import { useMemo, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
+import { useEffect, useMemo, useRef } from "react";
+import { useFrame, useThree } from "@react-three/fiber";
 import { useTexture } from "@react-three/drei";
 import fooVert from "../glsl/foo.vert";
 import fooFrag from "../glsl/foo.frag";
@@ -19,6 +19,16 @@ export const FooShader = () => {
     }),
     []
   );
+
+  const { controls } = useThree();
+  useEffect(() => {
+    if (controls) {
+      controls.fitToBox(geometryRef.current, true, {
+        paddingLeft: 1,
+        paddingRight: 1,
+      });
+    }
+  }, []);
 
   useFrame(({ clock }) => {
     if (geometryRef.current) {
