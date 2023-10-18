@@ -1,4 +1,3 @@
-import "./App.css";
 import { useRef, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { CameraControls } from "@react-three/drei";
