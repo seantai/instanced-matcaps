@@ -6,7 +6,7 @@ import fooFrag from "../glsl/foo.frag";
 
 export const FooShader = () => {
   const geometryRef = useRef();
-  const fooTexture = useTexture("./img/favicon.ico");
+  const fooTexture = useTexture("./favicon.ico");
 
   const uniforms = useMemo(
     () => ({
