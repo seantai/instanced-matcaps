@@ -1,13 +1,13 @@
 import { Canvas } from "@react-three/fiber";
-import { CameraControls } from "@react-three/drei";
-import { FooShader } from "./components/FooShader";
+import { Mesh } from "./components/Mesh";
+import { Kamera } from "./components/Kamera";
 
 const Scene = () => {
   return (
     <>
-      <FooShader />
+      <Mesh />
+      <Kamera />
       <ambientLight intensity={0.6} />
-      <CameraControls makeDefault />
     </>
   );
 };
