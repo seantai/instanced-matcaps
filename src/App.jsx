@@ -1,21 +1,26 @@
 import { Canvas } from "@react-three/fiber";
-import { Mesh } from "./components/Mesh";
+import { Bvh } from "@react-three/drei";
+import { InstancedMesh } from "./components/InstancedMesh";
 import { Kamera } from "./components/Kamera";
+import { Perf } from "r3f-perf";
 
 const Scene = () => {
   return (
     <>
-      <Mesh />
+      <InstancedMesh />
       <Kamera />
-      <ambientLight intensity={0.6} />
+      {/* <ambientLight intensity={0.6} /> */}
     </>
   );
 };
 
 export default function App() {
   return (
-    <Canvas camera={{ position: [0, 0, 2] }}>
-      <Scene />
+    <Canvas camera={{ position: [20, -20, 30] }}>
+      <Bvh firstHitOnly>
+        <Scene />
+      </Bvh>
+      {/* <Perf /> */}
     </Canvas>
   );
 }

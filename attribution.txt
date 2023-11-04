@@ -1,5 +1,6 @@
-Matcap: 
-https://raw.githubusercontent.com/nidorx/matcaps/master/1024/3B3C3F_DAD9D5_929290_ABACA8.png
-https://github.com/nidorx/matcaps
+Matcap:
+161B1F_C7E0EC_90A5B3_7B8C9B.png
+from https://github.com/nidorx/matcaps
+
 
 

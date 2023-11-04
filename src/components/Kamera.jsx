@@ -30,8 +30,8 @@ export const Kamera = () => {
       makeDefault
       // polarAngle={1.9412172877096}
       // azimuthAngle={-0.4080060034431936}
-      mouseButtons={{ left: 0, middle: 0, right: 0, wheel: 0 }}
-      touches={{ one: 0, two: 0, three: 0 }}
+      // mouseButtons={{ left: 0, middle: 0, right: 0, wheel: 0 }}
+      // touches={{ one: 0, two: 0, three: 0 }}
       // minAzimuthAngle={-0.2}
       // maxAzimuthAngle={0.2}
       // minPolarAngle={1}
