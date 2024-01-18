@@ -1,3 +1,7 @@
 # r3f-vite-boiler
 
-vite tailwind glsl framer-motion valtio
+_vite tailwind glsl framer-motion valtio_
+
+`pnpm i`
+
+`pnpm dev`
