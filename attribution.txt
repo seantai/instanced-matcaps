@@ -6,3 +6,5 @@ Overlay:
 Dr.Cmda
 https://codesandbox.io/p/sandbox/bestservedbold-christmas-baubles-zxpv7
 
+HDR:
+https://github.com/google/model-viewer/pull/2916/commits/472f7462fd5a8e5fbb0418ab32122ed7a878a959
