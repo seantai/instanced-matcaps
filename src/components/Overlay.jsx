@@ -21,19 +21,20 @@ export function Overlay() {
           </p>
         </div>
         <div className="font-antonio w-full h-full flex justify-between items-end p-0">
-          <p className="text-[100px] md:text-[250px] leading-[100%]">ߥ</p>
-          <p className="text-[100px] md:text-[250px] leading-[100%]">ﮯ1</p>
+          <p className="text-[100px] md:text-[250px] leading-[100%] text-[#080808cb]">ߥ</p>
+          <p className="hidden md:block md:text-[200px] leading-[100%] text-[#08080883]">ﮯ1</p>
+          <p className="text-[100px] md:text-[250px] leading-[100%] text-[#08080827]">ﮮ</p>
         </div>
         <div className="mt-14 w-full flex items-end justify-between p-0">
           <div className="text-md flex flex-col">
             <p className="font-semibold">Dreaming of Shaders</p>
-            <p>Dreaming of Shaders</p>
+            <p className="hidden md:block tracking-wide">Dreaming of Shaders</p>
           </div>
 
-          <p className="justify-self-end  text-md">Berlin, San Francisco</p>
+          <p className="justify-self-end text-md italic">Berlin, San Francisco</p>
         </div>
       </div>
-      <div className="left-0 right-0 fixed mb-24 md:mb-14 text-center bottom-0 font-semibold tracking-tighter text-xl ">
+      <div className="left-0 right-0 fixed mb-24 md:mb-14 text-center bottom-0 font-semibold tracking-tighter text-xl">
         <p className="cursor-pointer select-none">CLICK SOMEWHERE</p>
       </div>
     </>
