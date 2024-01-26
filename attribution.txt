@@ -1,10 +1,7 @@
-Matcap:
-161B1F_C7E0EC_90A5B3_7B8C9B.png
-https://github.com/nidorx/matcaps
+Matcaps:
+Sivka https://23mink.gumroad.com/l/matcappack
 
 Overlay:
-Dr.Cmda
-https://codesandbox.io/p/sandbox/bestservedbold-christmas-baubles-zxpv7
+Dr.Cmda https://codesandbox.io/p/sandbox/bestservedbold-christmas-baubles-zxpv7
 
-HDR:
-https://github.com/google/model-viewer/pull/2916/commits/472f7462fd5a8e5fbb0418ab32122ed7a878a959
+

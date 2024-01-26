@@ -1,6 +1,4 @@
-# r3f-vite-boiler
-
-_vite tailwind glsl valtio_
+# instanced matcaps
 
 `pnpm i`
 
